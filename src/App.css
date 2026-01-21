@@ -82,9 +82,11 @@ html, body {
 }
 
   .title {
+    white-space: normal;
     font-size: 1.8rem;
     margin-bottom: 20px;
     text-align: center;
+    word-break: break-word;
   }
 
   .gif {
