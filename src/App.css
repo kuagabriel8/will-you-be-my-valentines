@@ -82,6 +82,7 @@ html, body {
 }
 
   .title {
+    max-width: 90vw;   
     white-space: normal;
     font-size: 1.8rem;
     margin-bottom: 20px;
