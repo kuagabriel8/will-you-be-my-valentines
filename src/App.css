@@ -69,9 +69,17 @@ html, body {
 }
 
 @media (max-width: 480px) {
+  
   .container {
-    padding: 16px;
-  }
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffa8c5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 
   .title {
     font-size: 1.8rem;
@@ -96,4 +104,14 @@ html, body {
     width: 90vw;         /* full-width buttons */
     max-width: 320px;
   }
+
+  .yes-button {
+  background-color: #2ecc71;
+}
+
+.no-button {
+  width: 100px;
+  height: 52px; /* magic number */
+  background-color: #e74c3c;
+}
 }
