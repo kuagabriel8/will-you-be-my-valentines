@@ -1,0 +1,69 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 24px;
+  width: min(400px, 92vw);
+}
+
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffa8c5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.yes-button,
+.no-button {
+  flex: 0 0 auto;              /* equal starting width */     
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.yes-button {
+  background-color: #2ecc71;
+}
+
+.no-button {
+  width: 100px; /* magic number */
+  background-color: #e74c3c;
+}
+
+.gif {
+  height: 300px;
+  margin-bottom: 0px;
+}
