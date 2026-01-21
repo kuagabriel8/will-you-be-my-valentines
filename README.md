@@ -3,6 +3,9 @@
 A playful, interactive React app where saying “No” only makes “Yes” stronger 💚  
 Built as a fun Valentine’s project to experiment with layout, animations, and user interaction.
 
+## Live demo
+https://will-you-be-my-valentines-umber.vercel.app/
+
 ## ✨ Features
 - Yes button grows when No is clicked
 - Buttons push each other naturally (no overlap!)
