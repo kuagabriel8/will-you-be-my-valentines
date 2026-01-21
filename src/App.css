@@ -67,3 +67,33 @@ html, body {
   height: 300px;
   margin-bottom: 0px;
 }
+
+@media (max-width: 480px) {
+  .container {
+    padding: 16px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .gif {
+    height: 220px;       /* smaller so it fits */
+    max-width: 90vw;
+    object-fit: contain;
+  }
+
+  .row {
+    width: 100%;
+    flex-direction: column;   /* stack buttons */
+    gap: 14px;
+  }
+
+  .yes-button,
+  .no-button {
+    width: 90vw;         /* full-width buttons */
+    max-width: 320px;
+  }
+}
